@@ -1,0 +1,823 @@
+Starting the Apache2.2 service
+The Apache2.2 service is running.
+rmine the server's fully qualified domain name, using 10.0.0.109 for ServerName
+[Thu Jan 31 20:30:15 2008] [notice] Apache/2.2.8 (Win32) configured -- resuming normal operations
+[Thu Jan 31 20:30:15 2008] [notice] Server built: Jan 18 2008 00:37:19
+[Thu Jan 31 20:30:15 2008] [notice] Parent: Created child process 756
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.109 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.0.0.109 for ServerName
+[Thu Jan 31 20:30:15 2008] [notice] Child 756: Child process is running
+[Thu Jan 31 20:30:15 2008] [notice] Child 756: Acquired the start mutex.
+[Thu Jan 31 20:30:15 2008] [notice] Child 756: Starting 64 worker threads.
+[Thu Jan 31 20:30:15 2008] [notice] Child 756: Starting thread to listen on port 80.
+[Thu Jan 31 20:30:22 2008] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jan 31 20:30:22 2008] [notice] Child 756: Exit event signaled. Child process is ending.
+[Thu Jan 31 20:30:23 2008] [notice] Child 756: Released the start mutex
+[Thu Jan 31 20:30:24 2008] [notice] Child 756: All worker threads have exited.
+[Thu Jan 31 20:30:24 2008] [notice] Child 756: Child process is exiting
+[Thu Jan 31 20:30:24 2008] [notice] Parent: Child process exited successfully.
+Starting the 'apache24' service
+The 'apache24' service is running.
+ssl:warn] [pid 14684:tid 740] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 11 14:25:58.526194 2024] [mpm_winnt:notice] [pid 14684:tid 740] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon Mar 11 14:25:58.526194 2024] [mpm_winnt:notice] [pid 14684:tid 740] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon Mar 11 14:25:58.526194 2024] [core:notice] [pid 14684:tid 740] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon Mar 11 14:25:58.526194 2024] [mpm_winnt:notice] [pid 14684:tid 740] AH00418: Parent: Created child process 26800
+[Mon Mar 11 14:25:59.136526 2024] [ssl:warn] [pid 26800:tid 524] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 11 14:25:59.152152 2024] [mpm_winnt:notice] [pid 26800:tid 524] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 11 14:31:43.955360 2024] [core:warn] [pid 5868:tid 760] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 11 14:31:44.063109 2024] [ssl:warn] [pid 5868:tid 760] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 11 14:31:44.159158 2024] [mpm_winnt:notice] [pid 5868:tid 760] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon Mar 11 14:31:44.159158 2024] [mpm_winnt:notice] [pid 5868:tid 760] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon Mar 11 14:31:44.159158 2024] [core:notice] [pid 5868:tid 760] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon Mar 11 14:31:44.164874 2024] [mpm_winnt:notice] [pid 5868:tid 760] AH00418: Parent: Created child process 8616
+[Mon Mar 11 14:31:46.091756 2024] [ssl:warn] [pid 8616:tid 780] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 11 14:31:46.170271 2024] [mpm_winnt:notice] [pid 8616:tid 780] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 11 23:20:47.418401 2024] [core:warn] [pid 5808:tid 788] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 11 23:20:47.528500 2024] [ssl:warn] [pid 5808:tid 788] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 11 23:20:47.621551 2024] [mpm_winnt:notice] [pid 5808:tid 788] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon Mar 11 23:20:47.621551 2024] [mpm_winnt:notice] [pid 5808:tid 788] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon Mar 11 23:20:47.621551 2024] [core:notice] [pid 5808:tid 788] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon Mar 11 23:20:47.626559 2024] [mpm_winnt:notice] [pid 5808:tid 788] AH00418: Parent: Created child process 9932
+[Mon Mar 11 23:20:49.214511 2024] [ssl:warn] [pid 9932:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 11 23:20:49.244509 2024] [mpm_winnt:notice] [pid 9932:tid 628] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 12 20:04:24.207572 2024] [core:warn] [pid 6424:tid 636] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 12 20:04:24.298819 2024] [ssl:warn] [pid 6424:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Mar 12 20:04:24.382619 2024] [mpm_winnt:notice] [pid 6424:tid 636] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue Mar 12 20:04:24.382619 2024] [mpm_winnt:notice] [pid 6424:tid 636] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue Mar 12 20:04:24.382619 2024] [core:notice] [pid 6424:tid 636] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue Mar 12 20:04:24.382619 2024] [mpm_winnt:notice] [pid 6424:tid 636] AH00418: Parent: Created child process 9868
+[Tue Mar 12 20:04:26.033226 2024] [ssl:warn] [pid 9868:tid 532] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Mar 12 20:04:26.080166 2024] [mpm_winnt:notice] [pid 9868:tid 532] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 13 12:55:25.557838 2024] [core:warn] [pid 6036:tid 752] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 13 12:55:25.707554 2024] [ssl:warn] [pid 6036:tid 752] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 13 12:55:25.889341 2024] [mpm_winnt:notice] [pid 6036:tid 752] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed Mar 13 12:55:25.889341 2024] [mpm_winnt:notice] [pid 6036:tid 752] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed Mar 13 12:55:25.889341 2024] [core:notice] [pid 6036:tid 752] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed Mar 13 12:55:25.892853 2024] [mpm_winnt:notice] [pid 6036:tid 752] AH00418: Parent: Created child process 9612
+[Wed Mar 13 12:55:27.522380 2024] [ssl:warn] [pid 9612:tid 948] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 13 12:55:27.562420 2024] [mpm_winnt:notice] [pid 9612:tid 948] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 14 12:24:18.111409 2024] [mpm_winnt:notice] [pid 6036:tid 752] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 14 12:24:20.129645 2024] [mpm_winnt:notice] [pid 9612:tid 948] AH00364: Child: All worker threads have exited.
+[Thu Mar 14 12:24:20.160923 2024] [mpm_winnt:notice] [pid 6036:tid 752] AH00430: Parent: Child process 9612 exited successfully.
+[Thu Mar 14 12:24:46.897727 2024] [ssl:warn] [pid 5140:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Mar 14 12:24:46.976259 2024] [mpm_winnt:notice] [pid 5140:tid 616] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Mar 14 12:24:46.976259 2024] [mpm_winnt:notice] [pid 5140:tid 616] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Mar 14 12:24:46.976259 2024] [core:notice] [pid 5140:tid 616] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Mar 14 12:24:46.976259 2024] [mpm_winnt:notice] [pid 5140:tid 616] AH00418: Parent: Created child process 7668
+[Thu Mar 14 12:24:48.485885 2024] [ssl:warn] [pid 7668:tid 836] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Mar 14 12:24:48.510907 2024] [mpm_winnt:notice] [pid 7668:tid 836] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 14 14:54:25.193142 2024] [core:warn] [pid 5796:tid 824] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 14 14:54:25.283633 2024] [ssl:warn] [pid 5796:tid 824] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Mar 14 14:54:25.377059 2024] [mpm_winnt:notice] [pid 5796:tid 824] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Mar 14 14:54:25.377059 2024] [mpm_winnt:notice] [pid 5796:tid 824] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Mar 14 14:54:25.377059 2024] [core:notice] [pid 5796:tid 824] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Mar 14 14:54:25.379595 2024] [mpm_winnt:notice] [pid 5796:tid 824] AH00418: Parent: Created child process 9080
+[Thu Mar 14 14:54:28.175279 2024] [ssl:warn] [pid 9080:tid 768] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Mar 14 14:54:28.206928 2024] [mpm_winnt:notice] [pid 9080:tid 768] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 16 19:28:09.276372 2024] [core:warn] [pid 5664:tid 784] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 16 19:28:09.395957 2024] [ssl:warn] [pid 5664:tid 784] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 16 19:28:09.539987 2024] [mpm_winnt:notice] [pid 5664:tid 784] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sat Mar 16 19:28:09.539987 2024] [mpm_winnt:notice] [pid 5664:tid 784] AH00456: Server built: Jul  1 2016 12:02:25
+[Sat Mar 16 19:28:09.539987 2024] [core:notice] [pid 5664:tid 784] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sat Mar 16 19:28:09.545997 2024] [mpm_winnt:notice] [pid 5664:tid 784] AH00418: Parent: Created child process 9536
+[Sat Mar 16 19:28:11.875553 2024] [ssl:warn] [pid 9536:tid 776] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 16 19:28:11.922832 2024] [mpm_winnt:notice] [pid 9536:tid 776] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 18 11:09:39.765547 2024] [core:warn] [pid 6932:tid 728] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 18 11:09:39.889213 2024] [ssl:warn] [pid 6932:tid 728] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 18 11:09:40.006614 2024] [mpm_winnt:notice] [pid 6932:tid 728] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon Mar 18 11:09:40.006614 2024] [mpm_winnt:notice] [pid 6932:tid 728] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon Mar 18 11:09:40.006614 2024] [core:notice] [pid 6932:tid 728] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon Mar 18 11:09:40.017314 2024] [mpm_winnt:notice] [pid 6932:tid 728] AH00418: Parent: Created child process 6532
+[Mon Mar 18 11:09:41.526725 2024] [ssl:warn] [pid 6532:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 18 11:09:41.556067 2024] [mpm_winnt:notice] [pid 6532:tid 632] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 19 16:37:40.803928 2024] [core:warn] [pid 5908:tid 804] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 19 16:37:40.899403 2024] [ssl:warn] [pid 5908:tid 804] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Mar 19 16:37:41.064332 2024] [mpm_winnt:notice] [pid 5908:tid 804] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue Mar 19 16:37:41.064332 2024] [mpm_winnt:notice] [pid 5908:tid 804] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue Mar 19 16:37:41.064332 2024] [core:notice] [pid 5908:tid 804] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue Mar 19 16:37:41.066368 2024] [mpm_winnt:notice] [pid 5908:tid 804] AH00418: Parent: Created child process 8468
+[Tue Mar 19 16:37:42.374440 2024] [ssl:warn] [pid 8468:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Mar 19 16:37:42.404387 2024] [mpm_winnt:notice] [pid 8468:tid 712] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 20 11:35:52.506010 2024] [core:warn] [pid 6348:tid 640] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 20 11:35:52.641120 2024] [ssl:warn] [pid 6348:tid 640] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 20 11:35:52.870866 2024] [mpm_winnt:notice] [pid 6348:tid 640] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed Mar 20 11:35:52.870866 2024] [mpm_winnt:notice] [pid 6348:tid 640] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed Mar 20 11:35:52.870866 2024] [core:notice] [pid 6348:tid 640] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed Mar 20 11:35:52.881146 2024] [mpm_winnt:notice] [pid 6348:tid 640] AH00418: Parent: Created child process 10536
+[Wed Mar 20 11:35:54.994826 2024] [ssl:warn] [pid 10536:tid 540] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 20 11:35:55.073363 2024] [mpm_winnt:notice] [pid 10536:tid 540] AH00354: Child: Starting 64 worker threads.
+[Fri Mar 22 12:04:24.248691 2024] [core:warn] [pid 5904:tid 740] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 22 12:04:24.343115 2024] [ssl:warn] [pid 5904:tid 740] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Mar 22 12:04:24.416413 2024] [mpm_winnt:notice] [pid 5904:tid 740] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri Mar 22 12:04:24.416413 2024] [mpm_winnt:notice] [pid 5904:tid 740] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri Mar 22 12:04:24.416413 2024] [core:notice] [pid 5904:tid 740] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri Mar 22 12:04:24.432136 2024] [mpm_winnt:notice] [pid 5904:tid 740] AH00418: Parent: Created child process 9228
+[Fri Mar 22 12:04:26.043659 2024] [ssl:warn] [pid 9228:tid 588] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Mar 22 12:04:26.090937 2024] [mpm_winnt:notice] [pid 9228:tid 588] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 24 18:42:35.352754 2024] [core:warn] [pid 5508:tid 712] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Mar 24 18:42:35.487706 2024] [ssl:warn] [pid 5508:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Mar 24 18:42:35.595624 2024] [mpm_winnt:notice] [pid 5508:tid 712] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun Mar 24 18:42:35.595624 2024] [mpm_winnt:notice] [pid 5508:tid 712] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun Mar 24 18:42:35.595624 2024] [core:notice] [pid 5508:tid 712] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun Mar 24 18:42:35.606011 2024] [mpm_winnt:notice] [pid 5508:tid 712] AH00418: Parent: Created child process 9036
+[Sun Mar 24 18:42:37.457161 2024] [ssl:warn] [pid 9036:tid 752] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Mar 24 18:42:37.507159 2024] [mpm_winnt:notice] [pid 9036:tid 752] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 25 21:41:58.401140 2024] [mpm_winnt:notice] [pid 5508:tid 712] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 25 21:42:00.418828 2024] [mpm_winnt:notice] [pid 9036:tid 752] AH00364: Child: All worker threads have exited.
+[Mon Mar 25 21:42:00.465877 2024] [mpm_winnt:notice] [pid 5508:tid 712] AH00430: Parent: Child process 9036 exited successfully.
+[Mon Mar 25 21:42:26.196269 2024] [ssl:warn] [pid 6232:tid 548] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 25 21:42:26.281032 2024] [mpm_winnt:notice] [pid 6232:tid 548] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon Mar 25 21:42:26.281032 2024] [mpm_winnt:notice] [pid 6232:tid 548] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon Mar 25 21:42:26.281032 2024] [core:notice] [pid 6232:tid 548] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon Mar 25 21:42:26.283066 2024] [mpm_winnt:notice] [pid 6232:tid 548] AH00418: Parent: Created child process 1388
+[Mon Mar 25 21:42:27.436134 2024] [ssl:warn] [pid 1388:tid 656] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 25 21:42:27.466456 2024] [mpm_winnt:notice] [pid 1388:tid 656] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 26 13:02:47.650384 2024] [core:warn] [pid 5916:tid 744] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 26 13:02:47.788517 2024] [ssl:warn] [pid 5916:tid 744] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Mar 26 13:02:48.140604 2024] [mpm_winnt:notice] [pid 5916:tid 744] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue Mar 26 13:02:48.140604 2024] [mpm_winnt:notice] [pid 5916:tid 744] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue Mar 26 13:02:48.140604 2024] [core:notice] [pid 5916:tid 744] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue Mar 26 13:02:48.146981 2024] [mpm_winnt:notice] [pid 5916:tid 744] AH00418: Parent: Created child process 10212
+[Tue Mar 26 13:02:49.873127 2024] [ssl:warn] [pid 10212:tid 764] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Mar 26 13:02:49.958986 2024] [mpm_winnt:notice] [pid 10212:tid 764] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 27 21:55:30.218636 2024] [core:warn] [pid 5264:tid 816] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 27 21:55:30.291463 2024] [ssl:warn] [pid 5264:tid 816] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 27 21:55:30.366233 2024] [mpm_winnt:notice] [pid 5264:tid 816] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed Mar 27 21:55:30.366233 2024] [mpm_winnt:notice] [pid 5264:tid 816] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed Mar 27 21:55:30.366233 2024] [core:notice] [pid 5264:tid 816] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed Mar 27 21:55:30.376240 2024] [mpm_winnt:notice] [pid 5264:tid 816] AH00418: Parent: Created child process 8380
+[Wed Mar 27 21:55:32.179114 2024] [ssl:warn] [pid 8380:tid 748] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Mar 27 21:55:32.210364 2024] [mpm_winnt:notice] [pid 8380:tid 748] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 28 11:27:47.581127 2024] [core:warn] [pid 5928:tid 584] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 28 11:27:47.751519 2024] [ssl:warn] [pid 5928:tid 584] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Mar 28 11:27:48.060979 2024] [mpm_winnt:notice] [pid 5928:tid 584] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Mar 28 11:27:48.060979 2024] [mpm_winnt:notice] [pid 5928:tid 584] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Mar 28 11:27:48.060979 2024] [core:notice] [pid 5928:tid 584] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Mar 28 11:27:48.063521 2024] [mpm_winnt:notice] [pid 5928:tid 584] AH00418: Parent: Created child process 9892
+[Thu Mar 28 11:27:49.881830 2024] [ssl:warn] [pid 9892:tid 540] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Mar 28 11:27:49.928703 2024] [mpm_winnt:notice] [pid 9892:tid 540] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 28 12:43:08.805139 2024] [mpm_winnt:notice] [pid 5928:tid 584] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 28 12:43:10.821242 2024] [mpm_winnt:notice] [pid 9892:tid 540] AH00364: Child: All worker threads have exited.
+[Thu Mar 28 12:43:10.852492 2024] [mpm_winnt:notice] [pid 5928:tid 584] AH00430: Parent: Child process 9892 exited successfully.
+[Thu Mar 28 12:43:34.977626 2024] [ssl:warn] [pid 6180:tid 584] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Mar 28 12:43:35.142166 2024] [mpm_winnt:notice] [pid 6180:tid 584] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Mar 28 12:43:35.142166 2024] [mpm_winnt:notice] [pid 6180:tid 584] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Mar 28 12:43:35.142166 2024] [core:notice] [pid 6180:tid 584] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Mar 28 12:43:35.142166 2024] [mpm_winnt:notice] [pid 6180:tid 584] AH00418: Parent: Created child process 8612
+[Thu Mar 28 12:43:36.832760 2024] [ssl:warn] [pid 8612:tid 608] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Mar 28 12:43:36.952820 2024] [mpm_winnt:notice] [pid 8612:tid 608] AH00354: Child: Starting 64 worker threads.
+[Fri Mar 29 12:13:43.451182 2024] [core:warn] [pid 6136:tid 700] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 29 12:13:43.571304 2024] [ssl:warn] [pid 6136:tid 700] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Mar 29 12:13:43.672313 2024] [mpm_winnt:notice] [pid 6136:tid 700] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri Mar 29 12:13:43.672313 2024] [mpm_winnt:notice] [pid 6136:tid 700] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri Mar 29 12:13:43.672313 2024] [core:notice] [pid 6136:tid 700] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri Mar 29 12:13:43.672313 2024] [mpm_winnt:notice] [pid 6136:tid 700] AH00418: Parent: Created child process 9128
+[Fri Mar 29 12:13:45.529803 2024] [ssl:warn] [pid 9128:tid 820] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Mar 29 12:13:45.577078 2024] [mpm_winnt:notice] [pid 9128:tid 820] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 30 19:48:02.664644 2024] [core:warn] [pid 5192:tid 756] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 30 19:48:02.786707 2024] [ssl:warn] [pid 5192:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 30 19:48:02.883002 2024] [mpm_winnt:notice] [pid 5192:tid 756] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sat Mar 30 19:48:02.883002 2024] [mpm_winnt:notice] [pid 5192:tid 756] AH00456: Server built: Jul  1 2016 12:02:25
+[Sat Mar 30 19:48:02.883002 2024] [core:notice] [pid 5192:tid 756] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sat Mar 30 19:48:02.888509 2024] [mpm_winnt:notice] [pid 5192:tid 756] AH00418: Parent: Created child process 8956
+[Sat Mar 30 19:48:04.470862 2024] [ssl:warn] [pid 8956:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Mar 30 19:48:04.517737 2024] [mpm_winnt:notice] [pid 8956:tid 636] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 31 13:45:51.923775 2024] [core:warn] [pid 5380:tid 772] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Mar 31 13:45:52.030207 2024] [ssl:warn] [pid 5380:tid 772] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Mar 31 13:45:52.248817 2024] [mpm_winnt:notice] [pid 5380:tid 772] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun Mar 31 13:45:52.248817 2024] [mpm_winnt:notice] [pid 5380:tid 772] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun Mar 31 13:45:52.248817 2024] [core:notice] [pid 5380:tid 772] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun Mar 31 13:45:52.248817 2024] [mpm_winnt:notice] [pid 5380:tid 772] AH00418: Parent: Created child process 9644
+[Sun Mar 31 13:45:53.788625 2024] [ssl:warn] [pid 9644:tid 764] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Mar 31 13:45:53.819858 2024] [mpm_winnt:notice] [pid 9644:tid 764] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 01 11:07:30.786614 2024] [core:warn] [pid 5972:tid 740] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 01 11:07:30.908904 2024] [ssl:warn] [pid 5972:tid 740] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Apr 01 11:07:31.143215 2024] [mpm_winnt:notice] [pid 5972:tid 740] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon Apr 01 11:07:31.143215 2024] [mpm_winnt:notice] [pid 5972:tid 740] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon Apr 01 11:07:31.143215 2024] [core:notice] [pid 5972:tid 740] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon Apr 01 11:07:31.149258 2024] [mpm_winnt:notice] [pid 5972:tid 740] AH00418: Parent: Created child process 8300
+[Mon Apr 01 11:07:32.978553 2024] [ssl:warn] [pid 8300:tid 624] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Apr 01 11:07:33.009805 2024] [mpm_winnt:notice] [pid 8300:tid 624] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 01 15:36:31.543333 2024] [mpm_winnt:notice] [pid 5972:tid 740] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Apr 01 15:36:33.570690 2024] [mpm_winnt:notice] [pid 8300:tid 624] AH00364: Child: All worker threads have exited.
+[Mon Apr 01 15:36:33.602324 2024] [mpm_winnt:notice] [pid 5972:tid 740] AH00430: Parent: Child process 8300 exited successfully.
+[Mon Apr 01 17:16:03.323148 2024] [ssl:warn] [pid 5608:tid 624] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Apr 01 17:16:03.418738 2024] [mpm_winnt:notice] [pid 5608:tid 624] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon Apr 01 17:16:03.418738 2024] [mpm_winnt:notice] [pid 5608:tid 624] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon Apr 01 17:16:03.418738 2024] [core:notice] [pid 5608:tid 624] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon Apr 01 17:16:03.422248 2024] [mpm_winnt:notice] [pid 5608:tid 624] AH00418: Parent: Created child process 8080
+[Mon Apr 01 17:16:05.209454 2024] [ssl:warn] [pid 8080:tid 716] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Apr 01 17:16:05.241113 2024] [mpm_winnt:notice] [pid 8080:tid 716] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 02 12:13:00.488510 2024] [core:warn] [pid 5016:tid 744] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 02 12:13:00.600540 2024] [ssl:warn] [pid 5016:tid 744] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 02 12:13:00.685928 2024] [mpm_winnt:notice] [pid 5016:tid 744] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue Apr 02 12:13:00.685928 2024] [mpm_winnt:notice] [pid 5016:tid 744] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue Apr 02 12:13:00.685928 2024] [core:notice] [pid 5016:tid 744] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue Apr 02 12:13:00.689937 2024] [mpm_winnt:notice] [pid 5016:tid 744] AH00418: Parent: Created child process 5628
+[Tue Apr 02 12:13:02.535115 2024] [ssl:warn] [pid 5628:tid 852] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 02 12:13:02.600627 2024] [mpm_winnt:notice] [pid 5628:tid 852] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 03 13:07:52.103917 2024] [core:warn] [pid 5328:tid 756] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 03 13:07:52.256944 2024] [ssl:warn] [pid 5328:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Apr 03 13:07:52.384394 2024] [mpm_winnt:notice] [pid 5328:tid 756] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed Apr 03 13:07:52.384394 2024] [mpm_winnt:notice] [pid 5328:tid 756] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed Apr 03 13:07:52.384394 2024] [core:notice] [pid 5328:tid 756] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed Apr 03 13:07:52.384394 2024] [mpm_winnt:notice] [pid 5328:tid 756] AH00418: Parent: Created child process 9916
+[Wed Apr 03 13:07:54.561824 2024] [ssl:warn] [pid 9916:tid 608] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Apr 03 13:07:54.597849 2024] [mpm_winnt:notice] [pid 9916:tid 608] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 04 12:09:34.132006 2024] [core:warn] [pid 5136:tid 784] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 04 12:09:34.310402 2024] [ssl:warn] [pid 5136:tid 784] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 04 12:09:34.464741 2024] [mpm_winnt:notice] [pid 5136:tid 784] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Apr 04 12:09:34.464741 2024] [mpm_winnt:notice] [pid 5136:tid 784] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Apr 04 12:09:34.464741 2024] [core:notice] [pid 5136:tid 784] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Apr 04 12:09:34.464741 2024] [mpm_winnt:notice] [pid 5136:tid 784] AH00418: Parent: Created child process 4792
+[Thu Apr 04 12:09:36.788000 2024] [ssl:warn] [pid 4792:tid 584] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 04 12:09:36.858048 2024] [mpm_winnt:notice] [pid 4792:tid 584] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 04 17:16:37.559208 2024] [core:warn] [pid 5176:tid 472] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 04 17:16:37.759043 2024] [ssl:warn] [pid 5176:tid 472] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 04 17:16:37.859190 2024] [mpm_winnt:notice] [pid 5176:tid 472] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Apr 04 17:16:37.859190 2024] [mpm_winnt:notice] [pid 5176:tid 472] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Apr 04 17:16:37.859190 2024] [core:notice] [pid 5176:tid 472] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Apr 04 17:16:37.868698 2024] [mpm_winnt:notice] [pid 5176:tid 472] AH00418: Parent: Created child process 9268
+[Thu Apr 04 17:16:40.214220 2024] [ssl:warn] [pid 9268:tid 704] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 04 17:16:40.264216 2024] [mpm_winnt:notice] [pid 9268:tid 704] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 05 12:33:02.049703 2024] [core:warn] [pid 5212:tid 748] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 05 12:33:02.325977 2024] [ssl:warn] [pid 5212:tid 748] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 05 12:33:02.489733 2024] [mpm_winnt:notice] [pid 5212:tid 748] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri Apr 05 12:33:02.489733 2024] [mpm_winnt:notice] [pid 5212:tid 748] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri Apr 05 12:33:02.489733 2024] [core:notice] [pid 5212:tid 748] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri Apr 05 12:33:02.499937 2024] [mpm_winnt:notice] [pid 5212:tid 748] AH00418: Parent: Created child process 9908
+[Fri Apr 05 12:33:04.162370 2024] [ssl:warn] [pid 9908:tid 516] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 05 12:33:04.240903 2024] [mpm_winnt:notice] [pid 9908:tid 516] AH00354: Child: Starting 64 worker threads.
+[Sat Apr 06 13:09:34.733484 2024] [core:warn] [pid 2824:tid 768] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 06 13:09:34.923443 2024] [ssl:warn] [pid 2824:tid 768] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Apr 06 13:09:35.073628 2024] [mpm_winnt:notice] [pid 2824:tid 768] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sat Apr 06 13:09:35.073628 2024] [mpm_winnt:notice] [pid 2824:tid 768] AH00456: Server built: Jul  1 2016 12:02:25
+[Sat Apr 06 13:09:35.073628 2024] [core:notice] [pid 2824:tid 768] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sat Apr 06 13:09:35.073628 2024] [mpm_winnt:notice] [pid 2824:tid 768] AH00418: Parent: Created child process 9644
+[Sat Apr 06 13:09:36.925126 2024] [ssl:warn] [pid 9644:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Apr 06 13:09:36.956284 2024] [mpm_winnt:notice] [pid 9644:tid 660] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 09 17:19:30.291256 2024] [core:warn] [pid 5152:tid 748] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 09 17:19:30.475149 2024] [ssl:warn] [pid 5152:tid 748] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 09 17:19:30.596272 2024] [mpm_winnt:notice] [pid 5152:tid 748] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue Apr 09 17:19:30.596272 2024] [mpm_winnt:notice] [pid 5152:tid 748] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue Apr 09 17:19:30.596272 2024] [core:notice] [pid 5152:tid 748] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue Apr 09 17:19:30.606475 2024] [mpm_winnt:notice] [pid 5152:tid 748] AH00418: Parent: Created child process 9544
+[Tue Apr 09 17:19:32.395869 2024] [ssl:warn] [pid 9544:tid 516] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 09 17:19:32.442651 2024] [mpm_winnt:notice] [pid 9544:tid 516] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 11 21:55:33.364223 2024] [mpm_winnt:notice] [pid 5152:tid 748] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 11 21:55:35.395489 2024] [mpm_winnt:notice] [pid 9544:tid 516] AH00364: Child: All worker threads have exited.
+[Thu Apr 11 21:55:35.442343 2024] [mpm_winnt:notice] [pid 5152:tid 748] AH00430: Parent: Child process 9544 exited successfully.
+[Thu Apr 11 21:56:04.021464 2024] [ssl:warn] [pid 5332:tid 584] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 11 21:56:04.099995 2024] [mpm_winnt:notice] [pid 5332:tid 584] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Apr 11 21:56:04.099995 2024] [mpm_winnt:notice] [pid 5332:tid 584] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Apr 11 21:56:04.099995 2024] [core:notice] [pid 5332:tid 584] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Apr 11 21:56:04.115620 2024] [mpm_winnt:notice] [pid 5332:tid 584] AH00418: Parent: Created child process 7708
+[Thu Apr 11 21:56:05.416850 2024] [ssl:warn] [pid 7708:tid 652] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 11 21:56:05.432528 2024] [mpm_winnt:notice] [pid 7708:tid 652] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 11 21:57:37.896283 2024] [mpm_winnt:notice] [pid 5332:tid 584] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 11 21:57:39.927535 2024] [mpm_winnt:notice] [pid 7708:tid 652] AH00364: Child: All worker threads have exited.
+[Thu Apr 11 21:57:39.958984 2024] [mpm_winnt:notice] [pid 5332:tid 584] AH00430: Parent: Child process 7708 exited successfully.
+[Thu Apr 11 21:58:03.156856 2024] [ssl:warn] [pid 5084:tid 832] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 11 21:58:03.255121 2024] [mpm_winnt:notice] [pid 5084:tid 832] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Apr 11 21:58:03.255121 2024] [mpm_winnt:notice] [pid 5084:tid 832] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Apr 11 21:58:03.255121 2024] [core:notice] [pid 5084:tid 832] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Apr 11 21:58:03.255121 2024] [mpm_winnt:notice] [pid 5084:tid 832] AH00418: Parent: Created child process 7072
+[Thu Apr 11 21:58:04.646401 2024] [ssl:warn] [pid 7072:tid 536] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 11 21:58:04.662418 2024] [mpm_winnt:notice] [pid 7072:tid 536] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 11 23:13:56.245192 2024] [mpm_winnt:notice] [pid 5084:tid 832] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 11 23:13:58.276871 2024] [mpm_winnt:notice] [pid 7072:tid 536] AH00364: Child: All worker threads have exited.
+[Thu Apr 11 23:13:58.308121 2024] [mpm_winnt:notice] [pid 5084:tid 832] AH00430: Parent: Child process 7072 exited successfully.
+[Thu Apr 11 23:14:24.023732 2024] [ssl:warn] [pid 5524:tid 832] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 11 23:14:24.162675 2024] [mpm_winnt:notice] [pid 5524:tid 832] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Apr 11 23:14:24.162675 2024] [mpm_winnt:notice] [pid 5524:tid 832] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Apr 11 23:14:24.162675 2024] [core:notice] [pid 5524:tid 832] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Apr 11 23:14:24.172235 2024] [mpm_winnt:notice] [pid 5524:tid 832] AH00418: Parent: Created child process 8992
+[Thu Apr 11 23:14:25.789683 2024] [ssl:warn] [pid 8992:tid 620] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 11 23:14:25.821325 2024] [mpm_winnt:notice] [pid 8992:tid 620] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 12 11:12:25.486871 2024] [core:warn] [pid 4632:tid 884] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 12 11:12:25.604325 2024] [ssl:warn] [pid 4632:tid 884] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 12 11:12:25.839073 2024] [mpm_winnt:notice] [pid 4632:tid 884] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri Apr 12 11:12:25.839073 2024] [mpm_winnt:notice] [pid 4632:tid 884] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri Apr 12 11:12:25.839073 2024] [core:notice] [pid 4632:tid 884] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri Apr 12 11:12:25.839073 2024] [mpm_winnt:notice] [pid 4632:tid 884] AH00418: Parent: Created child process 9844
+[Fri Apr 12 11:12:27.743192 2024] [ssl:warn] [pid 9844:tid 740] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 12 11:12:27.799291 2024] [mpm_winnt:notice] [pid 9844:tid 740] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 12 23:11:26.675611 2024] [mpm_winnt:notice] [pid 4632:tid 884] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 12 23:11:28.707698 2024] [mpm_winnt:notice] [pid 9844:tid 740] AH00364: Child: All worker threads have exited.
+[Fri Apr 12 23:11:28.738948 2024] [mpm_winnt:notice] [pid 4632:tid 884] AH00430: Parent: Child process 9844 exited successfully.
+[Fri Apr 12 23:11:54.945600 2024] [ssl:warn] [pid 5940:tid 732] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 12 23:11:55.047298 2024] [mpm_winnt:notice] [pid 5940:tid 732] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri Apr 12 23:11:55.047298 2024] [mpm_winnt:notice] [pid 5940:tid 732] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri Apr 12 23:11:55.047298 2024] [core:notice] [pid 5940:tid 732] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri Apr 12 23:11:55.063153 2024] [mpm_winnt:notice] [pid 5940:tid 732] AH00418: Parent: Created child process 8780
+[Fri Apr 12 23:11:56.929917 2024] [ssl:warn] [pid 8780:tid 820] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 12 23:11:57.024211 2024] [mpm_winnt:notice] [pid 8780:tid 820] AH00354: Child: Starting 64 worker threads.
+[Sat Apr 13 10:29:15.543455 2024] [core:warn] [pid 4244:tid 876] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 13 10:29:15.680094 2024] [ssl:warn] [pid 4244:tid 876] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Apr 13 10:29:15.847453 2024] [mpm_winnt:notice] [pid 4244:tid 876] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sat Apr 13 10:29:15.847453 2024] [mpm_winnt:notice] [pid 4244:tid 876] AH00456: Server built: Jul  1 2016 12:02:25
+[Sat Apr 13 10:29:15.847453 2024] [core:notice] [pid 4244:tid 876] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sat Apr 13 10:29:15.854005 2024] [mpm_winnt:notice] [pid 4244:tid 876] AH00418: Parent: Created child process 9612
+[Sat Apr 13 10:29:17.789192 2024] [ssl:warn] [pid 9612:tid 928] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Apr 13 10:29:17.839192 2024] [mpm_winnt:notice] [pid 9612:tid 928] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 14 11:45:58.974271 2024] [core:warn] [pid 6276:tid 700] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Apr 14 11:45:59.117369 2024] [ssl:warn] [pid 6276:tid 700] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Apr 14 11:45:59.461176 2024] [mpm_winnt:notice] [pid 6276:tid 700] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun Apr 14 11:45:59.461176 2024] [mpm_winnt:notice] [pid 6276:tid 700] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun Apr 14 11:45:59.461176 2024] [core:notice] [pid 6276:tid 700] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun Apr 14 11:45:59.461176 2024] [mpm_winnt:notice] [pid 6276:tid 700] AH00418: Parent: Created child process 10016
+[Sun Apr 14 11:46:01.387867 2024] [ssl:warn] [pid 10016:tid 568] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Apr 14 11:46:01.435145 2024] [mpm_winnt:notice] [pid 10016:tid 568] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 14 17:47:56.122933 2024] [core:warn] [pid 4976:tid 816] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Apr 14 17:47:56.911118 2024] [ssl:warn] [pid 4976:tid 816] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Apr 14 17:47:57.231264 2024] [mpm_winnt:notice] [pid 4976:tid 816] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun Apr 14 17:47:57.231264 2024] [mpm_winnt:notice] [pid 4976:tid 816] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun Apr 14 17:47:57.231264 2024] [core:notice] [pid 4976:tid 816] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun Apr 14 17:47:57.241278 2024] [mpm_winnt:notice] [pid 4976:tid 816] AH00418: Parent: Created child process 10216
+[Sun Apr 14 17:47:59.174942 2024] [ssl:warn] [pid 10216:tid 500] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Apr 14 17:47:59.240958 2024] [mpm_winnt:notice] [pid 10216:tid 500] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 17 11:28:05.784004 2024] [core:warn] [pid 4988:tid 756] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 17 11:28:05.978856 2024] [ssl:warn] [pid 4988:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Apr 17 11:28:06.278790 2024] [mpm_winnt:notice] [pid 4988:tid 756] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed Apr 17 11:28:06.278790 2024] [mpm_winnt:notice] [pid 4988:tid 756] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed Apr 17 11:28:06.278790 2024] [core:notice] [pid 4988:tid 756] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed Apr 17 11:28:06.288845 2024] [mpm_winnt:notice] [pid 4988:tid 756] AH00418: Parent: Created child process 10016
+[Wed Apr 17 11:28:08.133701 2024] [ssl:warn] [pid 10016:tid 656] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Apr 17 11:28:08.185886 2024] [mpm_winnt:notice] [pid 10016:tid 656] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 18 12:11:36.481662 2024] [core:warn] [pid 5184:tid 768] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 18 12:11:36.800085 2024] [ssl:warn] [pid 5184:tid 768] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 18 12:11:36.972961 2024] [mpm_winnt:notice] [pid 5184:tid 768] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Apr 18 12:11:36.972961 2024] [mpm_winnt:notice] [pid 5184:tid 768] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Apr 18 12:11:36.972961 2024] [core:notice] [pid 5184:tid 768] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Apr 18 12:11:36.975473 2024] [mpm_winnt:notice] [pid 5184:tid 768] AH00418: Parent: Created child process 10164
+[Thu Apr 18 12:11:39.015099 2024] [ssl:warn] [pid 10164:tid 264] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 18 12:11:39.061974 2024] [mpm_winnt:notice] [pid 10164:tid 264] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 18 16:08:27.282914 2024] [core:warn] [pid 5636:tid 776] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 18 16:08:27.379886 2024] [ssl:warn] [pid 5636:tid 776] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 18 16:08:27.499895 2024] [mpm_winnt:notice] [pid 5636:tid 776] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Apr 18 16:08:27.499895 2024] [mpm_winnt:notice] [pid 5636:tid 776] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Apr 18 16:08:27.499895 2024] [core:notice] [pid 5636:tid 776] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Apr 18 16:08:27.505582 2024] [mpm_winnt:notice] [pid 5636:tid 776] AH00418: Parent: Created child process 10072
+[Thu Apr 18 16:08:28.979649 2024] [ssl:warn] [pid 10072:tid 488] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 18 16:08:28.999580 2024] [mpm_winnt:notice] [pid 10072:tid 488] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 18 19:59:17.666965 2024] [mpm_winnt:notice] [pid 5636:tid 776] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 18 19:59:19.714498 2024] [mpm_winnt:notice] [pid 10072:tid 488] AH00364: Child: All worker threads have exited.
+[Thu Apr 18 19:59:19.745804 2024] [mpm_winnt:notice] [pid 5636:tid 776] AH00430: Parent: Child process 10072 exited successfully.
+[Thu Apr 18 19:59:46.190915 2024] [ssl:warn] [pid 5896:tid 496] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 18 19:59:46.390899 2024] [mpm_winnt:notice] [pid 5896:tid 496] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Apr 18 19:59:46.390899 2024] [mpm_winnt:notice] [pid 5896:tid 496] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Apr 18 19:59:46.390899 2024] [core:notice] [pid 5896:tid 496] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Apr 18 19:59:46.395942 2024] [mpm_winnt:notice] [pid 5896:tid 496] AH00418: Parent: Created child process 4276
+[Thu Apr 18 19:59:47.768470 2024] [ssl:warn] [pid 4276:tid 644] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 18 19:59:47.799720 2024] [mpm_winnt:notice] [pid 4276:tid 644] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 19 09:25:16.065218 2024] [core:warn] [pid 4244:tid 756] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 19 09:25:16.209274 2024] [ssl:warn] [pid 4244:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 19 09:25:16.326862 2024] [mpm_winnt:notice] [pid 4244:tid 756] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri Apr 19 09:25:16.326862 2024] [mpm_winnt:notice] [pid 4244:tid 756] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri Apr 19 09:25:16.326862 2024] [core:notice] [pid 4244:tid 756] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri Apr 19 09:25:16.326862 2024] [mpm_winnt:notice] [pid 4244:tid 756] AH00418: Parent: Created child process 9252
+[Fri Apr 19 09:25:18.127742 2024] [ssl:warn] [pid 9252:tid 668] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 19 09:25:18.187745 2024] [mpm_winnt:notice] [pid 9252:tid 668] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 19 14:44:26.774236 2024] [core:warn] [pid 5124:tid 836] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 19 14:44:26.924045 2024] [ssl:warn] [pid 5124:tid 836] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 19 14:44:27.054109 2024] [mpm_winnt:notice] [pid 5124:tid 836] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri Apr 19 14:44:27.054109 2024] [mpm_winnt:notice] [pid 5124:tid 836] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri Apr 19 14:44:27.054109 2024] [core:notice] [pid 5124:tid 836] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri Apr 19 14:44:27.054109 2024] [mpm_winnt:notice] [pid 5124:tid 836] AH00418: Parent: Created child process 9028
+[Fri Apr 19 14:44:29.235793 2024] [ssl:warn] [pid 9028:tid 668] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 19 14:44:29.276914 2024] [mpm_winnt:notice] [pid 9028:tid 668] AH00354: Child: Starting 64 worker threads.
+[Sat Apr 20 11:38:55.618981 2024] [core:warn] [pid 5116:tid 880] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 20 11:38:55.737678 2024] [ssl:warn] [pid 5116:tid 880] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Apr 20 11:38:55.924745 2024] [mpm_winnt:notice] [pid 5116:tid 880] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sat Apr 20 11:38:55.924745 2024] [mpm_winnt:notice] [pid 5116:tid 880] AH00456: Server built: Jul  1 2016 12:02:25
+[Sat Apr 20 11:38:55.924745 2024] [core:notice] [pid 5116:tid 880] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sat Apr 20 11:38:55.927255 2024] [mpm_winnt:notice] [pid 5116:tid 880] AH00418: Parent: Created child process 1788
+[Sat Apr 20 11:38:57.723587 2024] [ssl:warn] [pid 1788:tid 644] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Apr 20 11:38:57.764319 2024] [mpm_winnt:notice] [pid 1788:tid 644] AH00354: Child: Starting 64 worker threads.
+[Sat Apr 20 17:07:02.562767 2024] [core:warn] [pid 5124:tid 484] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 20 17:07:02.794929 2024] [ssl:warn] [pid 5124:tid 484] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Apr 20 17:07:03.082311 2024] [mpm_winnt:notice] [pid 5124:tid 484] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sat Apr 20 17:07:03.082311 2024] [mpm_winnt:notice] [pid 5124:tid 484] AH00456: Server built: Jul  1 2016 12:02:25
+[Sat Apr 20 17:07:03.082311 2024] [core:notice] [pid 5124:tid 484] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sat Apr 20 17:07:03.102333 2024] [mpm_winnt:notice] [pid 5124:tid 484] AH00418: Parent: Created child process 10148
+[Sat Apr 20 17:07:05.569544 2024] [ssl:warn] [pid 10148:tid 668] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Apr 20 17:07:05.615673 2024] [mpm_winnt:notice] [pid 10148:tid 668] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 21 10:25:33.202872 2024] [core:warn] [pid 5240:tid 528] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Apr 21 10:25:33.318236 2024] [ssl:warn] [pid 5240:tid 528] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Apr 21 10:25:33.490810 2024] [mpm_winnt:notice] [pid 5240:tid 528] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun Apr 21 10:25:33.490810 2024] [mpm_winnt:notice] [pid 5240:tid 528] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun Apr 21 10:25:33.490810 2024] [core:notice] [pid 5240:tid 528] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun Apr 21 10:25:33.497865 2024] [mpm_winnt:notice] [pid 5240:tid 528] AH00418: Parent: Created child process 9460
+[Sun Apr 21 10:25:35.592557 2024] [ssl:warn] [pid 9460:tid 732] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Apr 21 10:25:35.624198 2024] [mpm_winnt:notice] [pid 9460:tid 732] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 22 11:07:32.849892 2024] [core:warn] [pid 5160:tid 656] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 22 11:07:33.004797 2024] [ssl:warn] [pid 5160:tid 656] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Apr 22 11:07:33.285111 2024] [mpm_winnt:notice] [pid 5160:tid 656] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon Apr 22 11:07:33.285111 2024] [mpm_winnt:notice] [pid 5160:tid 656] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon Apr 22 11:07:33.285111 2024] [core:notice] [pid 5160:tid 656] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon Apr 22 11:07:33.285111 2024] [mpm_winnt:notice] [pid 5160:tid 656] AH00418: Parent: Created child process 9932
+[Mon Apr 22 11:07:35.383339 2024] [ssl:warn] [pid 9932:tid 788] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Apr 22 11:07:35.433403 2024] [mpm_winnt:notice] [pid 9932:tid 788] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 22 17:44:56.404503 2024] [core:warn] [pid 5048:tid 772] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 22 17:44:56.526819 2024] [ssl:warn] [pid 5048:tid 772] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Apr 22 17:44:56.830324 2024] [mpm_winnt:notice] [pid 5048:tid 772] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon Apr 22 17:44:56.830324 2024] [mpm_winnt:notice] [pid 5048:tid 772] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon Apr 22 17:44:56.830324 2024] [core:notice] [pid 5048:tid 772] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon Apr 22 17:44:56.849058 2024] [mpm_winnt:notice] [pid 5048:tid 772] AH00418: Parent: Created child process 6936
+[Mon Apr 22 17:44:58.873311 2024] [ssl:warn] [pid 6936:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Apr 22 17:44:58.936237 2024] [mpm_winnt:notice] [pid 6936:tid 632] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 24 09:16:34.545629 2024] [core:warn] [pid 5144:tid 516] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 24 09:16:34.688950 2024] [ssl:warn] [pid 5144:tid 516] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Apr 24 09:16:34.913056 2024] [mpm_winnt:notice] [pid 5144:tid 516] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed Apr 24 09:16:34.913056 2024] [mpm_winnt:notice] [pid 5144:tid 516] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed Apr 24 09:16:34.913056 2024] [core:notice] [pid 5144:tid 516] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed Apr 24 09:16:34.934590 2024] [mpm_winnt:notice] [pid 5144:tid 516] AH00418: Parent: Created child process 1836
+[Wed Apr 24 09:16:37.492538 2024] [ssl:warn] [pid 1836:tid 624] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Apr 24 09:16:37.595531 2024] [mpm_winnt:notice] [pid 1836:tid 624] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 24 12:04:31.278760 2024] [core:warn] [pid 4492:tid 724] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 24 12:04:31.441249 2024] [ssl:warn] [pid 4492:tid 724] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Apr 24 12:04:31.588467 2024] [mpm_winnt:notice] [pid 4492:tid 724] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed Apr 24 12:04:31.588467 2024] [mpm_winnt:notice] [pid 4492:tid 724] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed Apr 24 12:04:31.588467 2024] [core:notice] [pid 4492:tid 724] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed Apr 24 12:04:31.588467 2024] [mpm_winnt:notice] [pid 4492:tid 724] AH00418: Parent: Created child process 9360
+[Wed Apr 24 12:04:33.705181 2024] [ssl:warn] [pid 9360:tid 568] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Apr 24 12:04:33.745195 2024] [mpm_winnt:notice] [pid 9360:tid 568] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 25 12:06:01.085081 2024] [core:warn] [pid 5236:tid 808] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 25 12:06:01.223528 2024] [ssl:warn] [pid 5236:tid 808] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 25 12:06:01.394199 2024] [mpm_winnt:notice] [pid 5236:tid 808] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu Apr 25 12:06:01.394199 2024] [mpm_winnt:notice] [pid 5236:tid 808] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu Apr 25 12:06:01.394199 2024] [core:notice] [pid 5236:tid 808] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu Apr 25 12:06:01.394199 2024] [mpm_winnt:notice] [pid 5236:tid 808] AH00418: Parent: Created child process 9532
+[Thu Apr 25 12:06:03.372388 2024] [ssl:warn] [pid 9532:tid 788] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Apr 25 12:06:03.442448 2024] [mpm_winnt:notice] [pid 9532:tid 788] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 26 16:19:49.737123 2024] [core:warn] [pid 5028:tid 480] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 26 16:19:49.839063 2024] [ssl:warn] [pid 5028:tid 480] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 26 16:19:49.999400 2024] [mpm_winnt:notice] [pid 5028:tid 480] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri Apr 26 16:19:49.999400 2024] [mpm_winnt:notice] [pid 5028:tid 480] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri Apr 26 16:19:49.999400 2024] [core:notice] [pid 5028:tid 480] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri Apr 26 16:19:50.004446 2024] [mpm_winnt:notice] [pid 5028:tid 480] AH00418: Parent: Created child process 7336
+[Fri Apr 26 16:19:51.617151 2024] [ssl:warn] [pid 7336:tid 720] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Apr 26 16:19:51.648419 2024] [mpm_winnt:notice] [pid 7336:tid 720] AH00354: Child: Starting 64 worker threads.
+[Sat Apr 27 09:23:53.165157 2024] [core:warn] [pid 5144:tid 872] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 27 09:23:53.325106 2024] [ssl:warn] [pid 5144:tid 872] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Apr 27 09:23:53.515251 2024] [mpm_winnt:notice] [pid 5144:tid 872] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sat Apr 27 09:23:53.515251 2024] [mpm_winnt:notice] [pid 5144:tid 872] AH00456: Server built: Jul  1 2016 12:02:25
+[Sat Apr 27 09:23:53.515251 2024] [core:notice] [pid 5144:tid 872] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sat Apr 27 09:23:53.530340 2024] [mpm_winnt:notice] [pid 5144:tid 872] AH00418: Parent: Created child process 9004
+[Sat Apr 27 09:23:55.381394 2024] [ssl:warn] [pid 9004:tid 256] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Apr 27 09:23:55.491198 2024] [mpm_winnt:notice] [pid 9004:tid 256] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 28 21:28:43.010565 2024] [core:warn] [pid 5212:tid 496] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Apr 28 21:28:43.159570 2024] [ssl:warn] [pid 5212:tid 496] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Apr 28 21:28:43.255540 2024] [mpm_winnt:notice] [pid 5212:tid 496] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun Apr 28 21:28:43.255540 2024] [mpm_winnt:notice] [pid 5212:tid 496] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun Apr 28 21:28:43.255540 2024] [core:notice] [pid 5212:tid 496] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun Apr 28 21:28:43.255540 2024] [mpm_winnt:notice] [pid 5212:tid 496] AH00418: Parent: Created child process 8556
+[Sun Apr 28 21:28:44.983060 2024] [ssl:warn] [pid 8556:tid 708] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Apr 28 21:28:44.998702 2024] [mpm_winnt:notice] [pid 8556:tid 708] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 30 10:48:09.749780 2024] [core:warn] [pid 5144:tid 480] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 30 10:48:09.871104 2024] [ssl:warn] [pid 5144:tid 480] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 30 10:48:10.010057 2024] [mpm_winnt:notice] [pid 5144:tid 480] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue Apr 30 10:48:10.010057 2024] [mpm_winnt:notice] [pid 5144:tid 480] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue Apr 30 10:48:10.010057 2024] [core:notice] [pid 5144:tid 480] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue Apr 30 10:48:10.015068 2024] [mpm_winnt:notice] [pid 5144:tid 480] AH00418: Parent: Created child process 5548
+[Tue Apr 30 10:48:11.761875 2024] [ssl:warn] [pid 5548:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 30 10:48:11.809166 2024] [mpm_winnt:notice] [pid 5548:tid 616] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 30 13:29:43.850673 2024] [core:warn] [pid 4228:tid 828] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 30 13:29:43.999714 2024] [ssl:warn] [pid 4228:tid 828] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 30 13:29:44.111616 2024] [mpm_winnt:notice] [pid 4228:tid 828] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue Apr 30 13:29:44.111616 2024] [mpm_winnt:notice] [pid 4228:tid 828] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue Apr 30 13:29:44.111616 2024] [core:notice] [pid 4228:tid 828] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue Apr 30 13:29:44.111616 2024] [mpm_winnt:notice] [pid 4228:tid 828] AH00418: Parent: Created child process 9324
+[Tue Apr 30 13:29:46.130763 2024] [ssl:warn] [pid 9324:tid 784] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 30 13:29:46.190836 2024] [mpm_winnt:notice] [pid 9324:tid 784] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 30 17:26:08.454839 2024] [core:warn] [pid 6248:tid 688] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 30 17:26:08.558655 2024] [ssl:warn] [pid 6248:tid 688] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 30 17:26:08.654701 2024] [mpm_winnt:notice] [pid 6248:tid 688] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue Apr 30 17:26:08.654701 2024] [mpm_winnt:notice] [pid 6248:tid 688] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue Apr 30 17:26:08.654701 2024] [core:notice] [pid 6248:tid 688] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue Apr 30 17:26:08.654701 2024] [mpm_winnt:notice] [pid 6248:tid 688] AH00418: Parent: Created child process 10480
+[Tue Apr 30 17:26:10.135865 2024] [ssl:warn] [pid 10480:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 30 17:26:10.151489 2024] [mpm_winnt:notice] [pid 10480:tid 612] AH00354: Child: Starting 64 worker threads.
+[Wed May 01 12:27:26.400784 2024] [mpm_winnt:notice] [pid 6248:tid 688] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 01 12:27:28.430071 2024] [mpm_winnt:notice] [pid 10480:tid 612] AH00364: Child: All worker threads have exited.
+[Wed May 01 12:27:28.461315 2024] [mpm_winnt:notice] [pid 6248:tid 688] AH00430: Parent: Child process 10480 exited successfully.
+[Wed May 01 12:27:51.116161 2024] [ssl:warn] [pid 5484:tid 792] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 01 12:27:51.335909 2024] [mpm_winnt:notice] [pid 5484:tid 792] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed May 01 12:27:51.335909 2024] [mpm_winnt:notice] [pid 5484:tid 792] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed May 01 12:27:51.335909 2024] [core:notice] [pid 5484:tid 792] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed May 01 12:27:51.457869 2024] [mpm_winnt:notice] [pid 5484:tid 792] AH00418: Parent: Created child process 9532
+[Wed May 01 12:27:53.560388 2024] [ssl:warn] [pid 9532:tid 548] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 01 12:27:53.638927 2024] [mpm_winnt:notice] [pid 9532:tid 548] AH00354: Child: Starting 64 worker threads.
+[Thu May 02 15:55:42.111390 2024] [core:warn] [pid 5128:tid 612] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 02 15:55:42.235725 2024] [ssl:warn] [pid 5128:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 02 15:55:42.562689 2024] [mpm_winnt:notice] [pid 5128:tid 612] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu May 02 15:55:42.562689 2024] [mpm_winnt:notice] [pid 5128:tid 612] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu May 02 15:55:42.562689 2024] [core:notice] [pid 5128:tid 612] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu May 02 15:55:42.576266 2024] [mpm_winnt:notice] [pid 5128:tid 612] AH00418: Parent: Created child process 10096
+[Thu May 02 15:55:44.505058 2024] [ssl:warn] [pid 10096:tid 512] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 02 15:55:44.565100 2024] [mpm_winnt:notice] [pid 10096:tid 512] AH00354: Child: Starting 64 worker threads.
+[Thu May 02 19:24:17.855308 2024] [core:warn] [pid 5988:tid 716] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 02 19:24:17.935020 2024] [ssl:warn] [pid 5988:tid 716] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 02 19:24:18.015092 2024] [mpm_winnt:notice] [pid 5988:tid 716] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu May 02 19:24:18.015092 2024] [mpm_winnt:notice] [pid 5988:tid 716] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu May 02 19:24:18.015092 2024] [core:notice] [pid 5988:tid 716] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu May 02 19:24:18.015092 2024] [mpm_winnt:notice] [pid 5988:tid 716] AH00418: Parent: Created child process 1364
+[Thu May 02 19:24:19.252915 2024] [ssl:warn] [pid 1364:tid 604] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 02 19:24:19.284169 2024] [mpm_winnt:notice] [pid 1364:tid 604] AH00354: Child: Starting 64 worker threads.
+[Fri May 03 10:55:14.950038 2024] [core:warn] [pid 5236:tid 780] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 03 10:55:15.085342 2024] [ssl:warn] [pid 5236:tid 780] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 03 10:55:15.195241 2024] [mpm_winnt:notice] [pid 5236:tid 780] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri May 03 10:55:15.195241 2024] [mpm_winnt:notice] [pid 5236:tid 780] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri May 03 10:55:15.195241 2024] [core:notice] [pid 5236:tid 780] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri May 03 10:55:15.205287 2024] [mpm_winnt:notice] [pid 5236:tid 780] AH00418: Parent: Created child process 9848
+[Fri May 03 10:55:17.037907 2024] [ssl:warn] [pid 9848:tid 552] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 03 10:55:17.069548 2024] [mpm_winnt:notice] [pid 9848:tid 552] AH00354: Child: Starting 64 worker threads.
+[Fri May 03 12:24:32.154005 2024] [core:warn] [pid 5296:tid 872] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 03 12:24:32.655457 2024] [ssl:warn] [pid 5296:tid 872] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 03 12:24:32.803042 2024] [mpm_winnt:notice] [pid 5296:tid 872] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri May 03 12:24:32.803042 2024] [mpm_winnt:notice] [pid 5296:tid 872] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri May 03 12:24:32.803042 2024] [core:notice] [pid 5296:tid 872] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri May 03 12:24:32.805551 2024] [mpm_winnt:notice] [pid 5296:tid 872] AH00418: Parent: Created child process 9864
+[Fri May 03 12:24:35.081537 2024] [ssl:warn] [pid 9864:tid 704] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 03 12:24:35.184647 2024] [mpm_winnt:notice] [pid 9864:tid 704] AH00354: Child: Starting 64 worker threads.
+[Fri May 03 18:12:36.883366 2024] [core:warn] [pid 5816:tid 600] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 03 18:12:37.015403 2024] [ssl:warn] [pid 5816:tid 600] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 03 18:12:37.285323 2024] [mpm_winnt:notice] [pid 5816:tid 600] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri May 03 18:12:37.285323 2024] [mpm_winnt:notice] [pid 5816:tid 600] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri May 03 18:12:37.285323 2024] [core:notice] [pid 5816:tid 600] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri May 03 18:12:37.293336 2024] [mpm_winnt:notice] [pid 5816:tid 600] AH00418: Parent: Created child process 7300
+[Fri May 03 18:12:39.395092 2024] [ssl:warn] [pid 7300:tid 544] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 03 18:12:39.461109 2024] [mpm_winnt:notice] [pid 7300:tid 544] AH00354: Child: Starting 64 worker threads.
+[Sat May 04 09:04:14.562326 2024] [core:warn] [pid 5152:tid 756] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 04 09:04:14.837161 2024] [ssl:warn] [pid 5152:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat May 04 09:04:15.009055 2024] [mpm_winnt:notice] [pid 5152:tid 756] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sat May 04 09:04:15.009055 2024] [mpm_winnt:notice] [pid 5152:tid 756] AH00456: Server built: Jul  1 2016 12:02:25
+[Sat May 04 09:04:15.009055 2024] [core:notice] [pid 5152:tid 756] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sat May 04 09:04:15.009055 2024] [mpm_winnt:notice] [pid 5152:tid 756] AH00418: Parent: Created child process 5316
+[Sat May 04 09:04:17.347114 2024] [ssl:warn] [pid 5316:tid 488] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat May 04 09:04:17.447167 2024] [mpm_winnt:notice] [pid 5316:tid 488] AH00354: Child: Starting 64 worker threads.
+[Sun May 05 18:21:17.677249 2024] [core:warn] [pid 4884:tid 632] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 05 18:21:17.787334 2024] [ssl:warn] [pid 4884:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 05 18:21:17.990175 2024] [mpm_winnt:notice] [pid 4884:tid 632] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun May 05 18:21:17.990175 2024] [mpm_winnt:notice] [pid 4884:tid 632] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun May 05 18:21:17.990175 2024] [core:notice] [pid 4884:tid 632] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun May 05 18:21:17.990175 2024] [mpm_winnt:notice] [pid 4884:tid 632] AH00418: Parent: Created child process 9796
+[Sun May 05 18:21:19.473066 2024] [ssl:warn] [pid 9796:tid 548] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 05 18:21:19.504314 2024] [mpm_winnt:notice] [pid 9796:tid 548] AH00354: Child: Starting 64 worker threads.
+[Mon May 06 09:49:16.338695 2024] [core:warn] [pid 4912:tid 736] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 06 09:49:16.449554 2024] [ssl:warn] [pid 4912:tid 736] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 06 09:49:16.612951 2024] [mpm_winnt:notice] [pid 4912:tid 736] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon May 06 09:49:16.612951 2024] [mpm_winnt:notice] [pid 4912:tid 736] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon May 06 09:49:16.612951 2024] [core:notice] [pid 4912:tid 736] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon May 06 09:49:16.616462 2024] [mpm_winnt:notice] [pid 4912:tid 736] AH00418: Parent: Created child process 9564
+[Mon May 06 09:49:18.378808 2024] [ssl:warn] [pid 9564:tid 588] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 06 09:49:18.491633 2024] [mpm_winnt:notice] [pid 9564:tid 588] AH00354: Child: Starting 64 worker threads.
+[Mon May 06 18:13:45.958842 2024] [mpm_winnt:notice] [pid 4912:tid 736] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 06 18:13:47.987930 2024] [mpm_winnt:notice] [pid 9564:tid 588] AH00364: Child: All worker threads have exited.
+[Mon May 06 18:13:48.019180 2024] [mpm_winnt:notice] [pid 4912:tid 736] AH00430: Parent: Child process 9564 exited successfully.
+[Mon May 06 18:14:14.824694 2024] [ssl:warn] [pid 5240:tid 492] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 06 18:14:15.072500 2024] [mpm_winnt:notice] [pid 5240:tid 492] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon May 06 18:14:15.072500 2024] [mpm_winnt:notice] [pid 5240:tid 492] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon May 06 18:14:15.072500 2024] [core:notice] [pid 5240:tid 492] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon May 06 18:14:15.080013 2024] [mpm_winnt:notice] [pid 5240:tid 492] AH00418: Parent: Created child process 9320
+[Mon May 06 18:14:18.521546 2024] [ssl:warn] [pid 9320:tid 588] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 06 18:14:18.555442 2024] [mpm_winnt:notice] [pid 9320:tid 588] AH00354: Child: Starting 64 worker threads.
+[Mon May 06 19:15:52.793935 2024] [core:warn] [pid 5284:tid 484] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 06 19:15:52.904790 2024] [ssl:warn] [pid 5284:tid 484] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 06 19:15:53.000714 2024] [mpm_winnt:notice] [pid 5284:tid 484] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon May 06 19:15:53.000714 2024] [mpm_winnt:notice] [pid 5284:tid 484] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon May 06 19:15:53.000714 2024] [core:notice] [pid 5284:tid 484] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon May 06 19:15:53.000714 2024] [mpm_winnt:notice] [pid 5284:tid 484] AH00418: Parent: Created child process 9236
+[Mon May 06 19:15:54.915452 2024] [ssl:warn] [pid 9236:tid 456] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 06 19:15:54.972473 2024] [mpm_winnt:notice] [pid 9236:tid 456] AH00354: Child: Starting 64 worker threads.
+[Wed May 08 15:07:51.761853 2024] [mpm_winnt:notice] [pid 5284:tid 484] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 08 15:07:53.793737 2024] [mpm_winnt:notice] [pid 9236:tid 456] AH00364: Child: All worker threads have exited.
+[Wed May 08 15:07:53.840611 2024] [mpm_winnt:notice] [pid 5284:tid 484] AH00430: Parent: Child process 9236 exited successfully.
+[Wed May 08 15:08:22.919201 2024] [ssl:warn] [pid 5428:tid 804] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 08 15:08:23.564264 2024] [mpm_winnt:notice] [pid 5428:tid 804] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed May 08 15:08:23.564264 2024] [mpm_winnt:notice] [pid 5428:tid 804] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed May 08 15:08:23.564264 2024] [core:notice] [pid 5428:tid 804] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed May 08 15:08:23.567777 2024] [mpm_winnt:notice] [pid 5428:tid 804] AH00418: Parent: Created child process 10092
+[Wed May 08 15:08:26.007866 2024] [ssl:warn] [pid 10092:tid 532] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 08 15:08:26.086408 2024] [mpm_winnt:notice] [pid 10092:tid 532] AH00354: Child: Starting 64 worker threads.
+[Thu May 09 13:07:23.085803 2024] [mpm_winnt:notice] [pid 5428:tid 804] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu May 09 13:07:25.148966 2024] [mpm_winnt:notice] [pid 10092:tid 532] AH00364: Child: All worker threads have exited.
+[Thu May 09 13:07:25.227080 2024] [mpm_winnt:notice] [pid 5428:tid 804] AH00430: Parent: Child process 10092 exited successfully.
+[Thu May 09 13:07:50.905869 2024] [ssl:warn] [pid 2960:tid 772] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 09 13:07:51.074858 2024] [mpm_winnt:notice] [pid 2960:tid 772] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu May 09 13:07:51.074858 2024] [mpm_winnt:notice] [pid 2960:tid 772] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu May 09 13:07:51.074858 2024] [core:notice] [pid 2960:tid 772] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu May 09 13:07:51.084217 2024] [mpm_winnt:notice] [pid 2960:tid 772] AH00418: Parent: Created child process 9976
+[Thu May 09 13:07:52.821663 2024] [ssl:warn] [pid 9976:tid 784] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 09 13:07:52.868537 2024] [mpm_winnt:notice] [pid 9976:tid 784] AH00354: Child: Starting 64 worker threads.
+[Fri May 10 12:12:22.908098 2024] [mpm_winnt:notice] [pid 2960:tid 772] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 10 12:12:24.939668 2024] [mpm_winnt:notice] [pid 9976:tid 784] AH00364: Child: All worker threads have exited.
+[Fri May 10 12:12:24.970918 2024] [mpm_winnt:notice] [pid 2960:tid 772] AH00430: Parent: Child process 9976 exited successfully.
+[Fri May 10 12:12:51.823013 2024] [ssl:warn] [pid 5740:tid 820] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 10 12:12:51.923255 2024] [mpm_winnt:notice] [pid 5740:tid 820] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri May 10 12:12:51.923255 2024] [mpm_winnt:notice] [pid 5740:tid 820] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri May 10 12:12:51.923255 2024] [core:notice] [pid 5740:tid 820] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri May 10 12:12:51.923255 2024] [mpm_winnt:notice] [pid 5740:tid 820] AH00418: Parent: Created child process 7696
+[Fri May 10 12:12:53.547841 2024] [ssl:warn] [pid 7696:tid 780] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 10 12:12:53.626380 2024] [mpm_winnt:notice] [pid 7696:tid 780] AH00354: Child: Starting 64 worker threads.
+[Fri May 10 21:38:59.563102 2024] [mpm_winnt:notice] [pid 5740:tid 820] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 10 21:39:01.600821 2024] [mpm_winnt:notice] [pid 7696:tid 780] AH00364: Child: All worker threads have exited.
+[Fri May 10 21:39:01.647710 2024] [mpm_winnt:notice] [pid 5740:tid 820] AH00430: Parent: Child process 7696 exited successfully.
+[Fri May 10 21:39:28.904206 2024] [ssl:warn] [pid 5388:tid 764] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 10 21:39:29.083956 2024] [mpm_winnt:notice] [pid 5388:tid 764] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri May 10 21:39:29.083956 2024] [mpm_winnt:notice] [pid 5388:tid 764] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri May 10 21:39:29.083956 2024] [core:notice] [pid 5388:tid 764] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri May 10 21:39:29.089004 2024] [mpm_winnt:notice] [pid 5388:tid 764] AH00418: Parent: Created child process 9248
+[Fri May 10 21:39:30.664772 2024] [ssl:warn] [pid 9248:tid 872] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 10 21:39:30.711659 2024] [mpm_winnt:notice] [pid 9248:tid 872] AH00354: Child: Starting 64 worker threads.
+[Sun May 12 20:18:22.994883 2024] [core:warn] [pid 5848:tid 732] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 12 20:18:23.102491 2024] [ssl:warn] [pid 5848:tid 732] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 12 20:18:23.317045 2024] [mpm_winnt:notice] [pid 5848:tid 732] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun May 12 20:18:23.317045 2024] [mpm_winnt:notice] [pid 5848:tid 732] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun May 12 20:18:23.317045 2024] [core:notice] [pid 5848:tid 732] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun May 12 20:18:23.327600 2024] [mpm_winnt:notice] [pid 5848:tid 732] AH00418: Parent: Created child process 9404
+[Sun May 12 20:18:25.226017 2024] [ssl:warn] [pid 9404:tid 744] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 12 20:18:25.273311 2024] [mpm_winnt:notice] [pid 9404:tid 744] AH00354: Child: Starting 64 worker threads.
+[Sun May 12 21:36:26.215304 2024] [mpm_winnt:notice] [pid 5848:tid 732] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun May 12 21:36:28.247592 2024] [mpm_winnt:notice] [pid 9404:tid 744] AH00364: Child: All worker threads have exited.
+[Sun May 12 21:36:28.263071 2024] [mpm_winnt:notice] [pid 5848:tid 732] AH00430: Parent: Child process 9404 exited successfully.
+[Sun May 12 21:36:51.320998 2024] [ssl:warn] [pid 5924:tid 696] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 12 21:36:51.519541 2024] [mpm_winnt:notice] [pid 5924:tid 696] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun May 12 21:36:51.519541 2024] [mpm_winnt:notice] [pid 5924:tid 696] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun May 12 21:36:51.519541 2024] [core:notice] [pid 5924:tid 696] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun May 12 21:36:51.521050 2024] [mpm_winnt:notice] [pid 5924:tid 696] AH00418: Parent: Created child process 10224
+[Sun May 12 21:36:53.450325 2024] [ssl:warn] [pid 10224:tid 548] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 12 21:36:53.530965 2024] [mpm_winnt:notice] [pid 10224:tid 548] AH00354: Child: Starting 64 worker threads.
+[Mon May 13 11:08:09.678291 2024] [core:warn] [pid 5900:tid 752] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 13 11:08:09.944995 2024] [ssl:warn] [pid 5900:tid 752] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 13 11:08:10.201082 2024] [mpm_winnt:notice] [pid 5900:tid 752] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon May 13 11:08:10.201082 2024] [mpm_winnt:notice] [pid 5900:tid 752] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon May 13 11:08:10.201082 2024] [core:notice] [pid 5900:tid 752] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon May 13 11:08:10.201082 2024] [mpm_winnt:notice] [pid 5900:tid 752] AH00418: Parent: Created child process 8228
+[Mon May 13 11:08:12.661007 2024] [ssl:warn] [pid 8228:tid 628] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 13 11:08:12.707882 2024] [mpm_winnt:notice] [pid 8228:tid 628] AH00354: Child: Starting 64 worker threads.
+[Wed May 15 11:02:20.144401 2024] [core:warn] [pid 5312:tid 472] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 15 11:02:20.266477 2024] [ssl:warn] [pid 5312:tid 472] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 15 11:02:20.670801 2024] [mpm_winnt:notice] [pid 5312:tid 472] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed May 15 11:02:20.670801 2024] [mpm_winnt:notice] [pid 5312:tid 472] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed May 15 11:02:20.670801 2024] [core:notice] [pid 5312:tid 472] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed May 15 11:02:20.670801 2024] [mpm_winnt:notice] [pid 5312:tid 472] AH00418: Parent: Created child process 10220
+[Wed May 15 11:02:22.588146 2024] [ssl:warn] [pid 10220:tid 752] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 15 11:02:22.713787 2024] [mpm_winnt:notice] [pid 10220:tid 752] AH00354: Child: Starting 64 worker threads.
+[Thu May 16 12:52:15.759974 2024] [core:warn] [pid 5244:tid 636] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 16 12:52:15.929802 2024] [ssl:warn] [pid 5244:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 16 12:52:16.046380 2024] [mpm_winnt:notice] [pid 5244:tid 636] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu May 16 12:52:16.046380 2024] [mpm_winnt:notice] [pid 5244:tid 636] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu May 16 12:52:16.046380 2024] [core:notice] [pid 5244:tid 636] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu May 16 12:52:16.057190 2024] [mpm_winnt:notice] [pid 5244:tid 636] AH00418: Parent: Created child process 10404
+[Thu May 16 12:52:17.920210 2024] [ssl:warn] [pid 10404:tid 560] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 16 12:52:18.009290 2024] [mpm_winnt:notice] [pid 10404:tid 560] AH00354: Child: Starting 64 worker threads.
+[Fri May 17 10:44:32.112819 2024] [mpm_winnt:notice] [pid 5244:tid 636] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 17 10:44:34.145967 2024] [mpm_winnt:notice] [pid 10404:tid 560] AH00364: Child: All worker threads have exited.
+[Fri May 17 10:44:34.177217 2024] [mpm_winnt:notice] [pid 5244:tid 636] AH00430: Parent: Child process 10404 exited successfully.
+[Fri May 17 10:44:57.231389 2024] [ssl:warn] [pid 5156:tid 784] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 17 10:44:57.341190 2024] [mpm_winnt:notice] [pid 5156:tid 784] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri May 17 10:44:57.341190 2024] [mpm_winnt:notice] [pid 5156:tid 784] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri May 17 10:44:57.341190 2024] [core:notice] [pid 5156:tid 784] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri May 17 10:44:57.341190 2024] [mpm_winnt:notice] [pid 5156:tid 784] AH00418: Parent: Created child process 7860
+[Fri May 17 10:44:58.726547 2024] [ssl:warn] [pid 7860:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 17 10:44:58.739344 2024] [mpm_winnt:notice] [pid 7860:tid 660] AH00354: Child: Starting 64 worker threads.
+[Fri May 17 17:36:18.696776 2024] [mpm_winnt:notice] [pid 5156:tid 784] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 17 17:36:20.714344 2024] [mpm_winnt:notice] [pid 7860:tid 660] AH00364: Child: All worker threads have exited.
+[Fri May 17 17:36:20.745756 2024] [mpm_winnt:notice] [pid 5156:tid 784] AH00430: Parent: Child process 7860 exited successfully.
+[Fri May 17 17:36:43.545878 2024] [ssl:warn] [pid 5852:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 17 17:36:43.671304 2024] [mpm_winnt:notice] [pid 5852:tid 756] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri May 17 17:36:43.671304 2024] [mpm_winnt:notice] [pid 5852:tid 756] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri May 17 17:36:43.671304 2024] [core:notice] [pid 5852:tid 756] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri May 17 17:36:43.671304 2024] [mpm_winnt:notice] [pid 5852:tid 756] AH00418: Parent: Created child process 5812
+[Fri May 17 17:36:44.597235 2024] [ssl:warn] [pid 5812:tid 652] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 17 17:36:44.628498 2024] [mpm_winnt:notice] [pid 5812:tid 652] AH00354: Child: Starting 64 worker threads.
+[Fri May 17 17:36:45.599487 2024] [mpm_winnt:notice] [pid 5852:tid 756] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 17 17:36:47.632504 2024] [mpm_winnt:notice] [pid 5812:tid 652] AH00364: Child: All worker threads have exited.
+[Fri May 17 17:36:47.648129 2024] [mpm_winnt:notice] [pid 5852:tid 756] AH00430: Parent: Child process 5812 exited successfully.
+[Fri May 17 18:20:34.162848 2024] [ssl:warn] [pid 6572:tid 768] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 17 18:20:34.260713 2024] [mpm_winnt:notice] [pid 6572:tid 768] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri May 17 18:20:34.260713 2024] [mpm_winnt:notice] [pid 6572:tid 768] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri May 17 18:20:34.260713 2024] [core:notice] [pid 6572:tid 768] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri May 17 18:20:34.266301 2024] [mpm_winnt:notice] [pid 6572:tid 768] AH00418: Parent: Created child process 9172
+[Fri May 17 18:20:35.655735 2024] [ssl:warn] [pid 9172:tid 468] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 17 18:20:35.696199 2024] [mpm_winnt:notice] [pid 9172:tid 468] AH00354: Child: Starting 64 worker threads.
+[Fri May 17 22:35:47.562884 2024] [mpm_winnt:notice] [pid 6572:tid 768] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 17 22:35:49.596427 2024] [mpm_winnt:notice] [pid 9172:tid 468] AH00364: Child: All worker threads have exited.
+[Fri May 17 22:35:49.628148 2024] [mpm_winnt:notice] [pid 6572:tid 768] AH00430: Parent: Child process 9172 exited successfully.
+[Fri May 17 22:36:16.700153 2024] [ssl:warn] [pid 6128:tid 672] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 17 22:36:16.849316 2024] [mpm_winnt:notice] [pid 6128:tid 672] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Fri May 17 22:36:16.849316 2024] [mpm_winnt:notice] [pid 6128:tid 672] AH00456: Server built: Jul  1 2016 12:02:25
+[Fri May 17 22:36:16.849316 2024] [core:notice] [pid 6128:tid 672] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Fri May 17 22:36:16.859339 2024] [mpm_winnt:notice] [pid 6128:tid 672] AH00418: Parent: Created child process 9624
+[Fri May 17 22:36:17.765089 2024] [ssl:warn] [pid 9624:tid 568] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 17 22:36:17.780739 2024] [mpm_winnt:notice] [pid 9624:tid 568] AH00354: Child: Starting 64 worker threads.
+[Mon May 20 11:09:00.538602 2024] [core:warn] [pid 5228:tid 728] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 20 11:09:00.730703 2024] [ssl:warn] [pid 5228:tid 728] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 20 11:09:00.890830 2024] [mpm_winnt:notice] [pid 5228:tid 728] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Mon May 20 11:09:00.890830 2024] [mpm_winnt:notice] [pid 5228:tid 728] AH00456: Server built: Jul  1 2016 12:02:25
+[Mon May 20 11:09:00.890830 2024] [core:notice] [pid 5228:tid 728] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Mon May 20 11:09:00.893845 2024] [mpm_winnt:notice] [pid 5228:tid 728] AH00418: Parent: Created child process 9428
+[Mon May 20 11:09:02.626728 2024] [ssl:warn] [pid 9428:tid 744] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon May 20 11:09:02.686725 2024] [mpm_winnt:notice] [pid 9428:tid 744] AH00354: Child: Starting 64 worker threads.
+[Tue May 21 10:37:57.455602 2024] [core:warn] [pid 4032:tid 764] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 21 10:37:57.565587 2024] [ssl:warn] [pid 4032:tid 764] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue May 21 10:37:57.636194 2024] [mpm_winnt:notice] [pid 4032:tid 764] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue May 21 10:37:57.636194 2024] [mpm_winnt:notice] [pid 4032:tid 764] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue May 21 10:37:57.636194 2024] [core:notice] [pid 4032:tid 764] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue May 21 10:37:57.636194 2024] [mpm_winnt:notice] [pid 4032:tid 764] AH00418: Parent: Created child process 1740
+[Tue May 21 10:38:00.302923 2024] [ssl:warn] [pid 1740:tid 692] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue May 21 10:38:00.342925 2024] [mpm_winnt:notice] [pid 1740:tid 692] AH00354: Child: Starting 64 worker threads.
+[Tue May 21 13:09:24.713475 2024] [core:warn] [pid 4440:tid 500] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 21 13:09:24.864483 2024] [ssl:warn] [pid 4440:tid 500] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue May 21 13:09:24.986560 2024] [mpm_winnt:notice] [pid 4440:tid 500] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue May 21 13:09:24.986560 2024] [mpm_winnt:notice] [pid 4440:tid 500] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue May 21 13:09:24.986560 2024] [core:notice] [pid 4440:tid 500] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue May 21 13:09:24.990071 2024] [mpm_winnt:notice] [pid 4440:tid 500] AH00418: Parent: Created child process 9932
+[Tue May 21 13:09:26.845283 2024] [ssl:warn] [pid 9932:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue May 21 13:09:26.892172 2024] [mpm_winnt:notice] [pid 9932:tid 616] AH00354: Child: Starting 64 worker threads.
+[Wed May 22 10:03:38.153027 2024] [core:warn] [pid 5308:tid 736] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 22 10:03:38.263149 2024] [ssl:warn] [pid 5308:tid 736] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 10:03:38.362902 2024] [mpm_winnt:notice] [pid 5308:tid 736] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed May 22 10:03:38.362902 2024] [mpm_winnt:notice] [pid 5308:tid 736] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed May 22 10:03:38.362902 2024] [core:notice] [pid 5308:tid 736] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed May 22 10:03:38.362902 2024] [mpm_winnt:notice] [pid 5308:tid 736] AH00418: Parent: Created child process 8644
+[Wed May 22 10:03:40.069858 2024] [ssl:warn] [pid 8644:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 10:03:40.132871 2024] [mpm_winnt:notice] [pid 8644:tid 660] AH00354: Child: Starting 64 worker threads.
+[Wed May 22 15:56:49.866736 2024] [core:warn] [pid 5164:tid 788] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 22 15:56:49.953064 2024] [ssl:warn] [pid 5164:tid 788] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 15:56:50.070120 2024] [mpm_winnt:notice] [pid 5164:tid 788] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed May 22 15:56:50.070120 2024] [mpm_winnt:notice] [pid 5164:tid 788] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed May 22 15:56:50.070120 2024] [core:notice] [pid 5164:tid 788] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed May 22 15:56:50.080726 2024] [mpm_winnt:notice] [pid 5164:tid 788] AH00418: Parent: Created child process 6584
+[Wed May 22 15:56:51.190713 2024] [ssl:warn] [pid 6584:tid 676] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 15:56:51.221879 2024] [mpm_winnt:notice] [pid 6584:tid 676] AH00354: Child: Starting 64 worker threads.
+[Wed May 22 15:56:51.968519 2024] [mpm_winnt:notice] [pid 5164:tid 788] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 22 15:56:53.998860 2024] [mpm_winnt:notice] [pid 6584:tid 676] AH00364: Child: All worker threads have exited.
+[Wed May 22 15:56:54.030195 2024] [mpm_winnt:notice] [pid 5164:tid 788] AH00430: Parent: Child process 6584 exited successfully.
+[Wed May 22 15:57:20.387418 2024] [ssl:warn] [pid 5368:tid 884] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 15:57:20.477749 2024] [mpm_winnt:notice] [pid 5368:tid 884] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed May 22 15:57:20.477749 2024] [mpm_winnt:notice] [pid 5368:tid 884] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed May 22 15:57:20.477749 2024] [core:notice] [pid 5368:tid 884] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed May 22 15:57:20.477749 2024] [mpm_winnt:notice] [pid 5368:tid 884] AH00418: Parent: Created child process 5984
+[Wed May 22 15:57:21.554131 2024] [ssl:warn] [pid 5984:tid 524] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 15:57:21.585968 2024] [mpm_winnt:notice] [pid 5984:tid 524] AH00354: Child: Starting 64 worker threads.
+[Wed May 22 17:10:12.961398 2024] [core:warn] [pid 5416:tid 740] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 22 17:10:13.051664 2024] [ssl:warn] [pid 5416:tid 740] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 17:10:13.201555 2024] [mpm_winnt:notice] [pid 5416:tid 740] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed May 22 17:10:13.201555 2024] [mpm_winnt:notice] [pid 5416:tid 740] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed May 22 17:10:13.201555 2024] [core:notice] [pid 5416:tid 740] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed May 22 17:10:13.204571 2024] [mpm_winnt:notice] [pid 5416:tid 740] AH00418: Parent: Created child process 9496
+[Wed May 22 17:10:14.774136 2024] [ssl:warn] [pid 9496:tid 568] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 17:10:14.837465 2024] [mpm_winnt:notice] [pid 9496:tid 568] AH00354: Child: Starting 64 worker threads.
+[Wed May 22 18:56:24.683066 2024] [mpm_winnt:notice] [pid 5416:tid 740] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 22 18:56:26.714725 2024] [mpm_winnt:notice] [pid 9496:tid 568] AH00364: Child: All worker threads have exited.
+[Wed May 22 18:56:26.745976 2024] [mpm_winnt:notice] [pid 5416:tid 740] AH00430: Parent: Child process 9496 exited successfully.
+[Wed May 22 18:56:51.671426 2024] [ssl:warn] [pid 6116:tid 764] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 18:56:51.753112 2024] [mpm_winnt:notice] [pid 6116:tid 764] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Wed May 22 18:56:51.753112 2024] [mpm_winnt:notice] [pid 6116:tid 764] AH00456: Server built: Jul  1 2016 12:02:25
+[Wed May 22 18:56:51.753112 2024] [core:notice] [pid 6116:tid 764] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Wed May 22 18:56:51.763124 2024] [mpm_winnt:notice] [pid 6116:tid 764] AH00418: Parent: Created child process 8936
+[Wed May 22 18:56:53.373520 2024] [ssl:warn] [pid 8936:tid 544] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed May 22 18:56:53.403167 2024] [mpm_winnt:notice] [pid 8936:tid 544] AH00354: Child: Starting 64 worker threads.
+[Thu May 23 09:42:40.299623 2024] [core:warn] [pid 5336:tid 744] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 23 09:42:40.416933 2024] [ssl:warn] [pid 5336:tid 744] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 23 09:42:40.550301 2024] [mpm_winnt:notice] [pid 5336:tid 744] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu May 23 09:42:40.550301 2024] [mpm_winnt:notice] [pid 5336:tid 744] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu May 23 09:42:40.550301 2024] [core:notice] [pid 5336:tid 744] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu May 23 09:42:40.550301 2024] [mpm_winnt:notice] [pid 5336:tid 744] AH00418: Parent: Created child process 9372
+[Thu May 23 09:42:42.294568 2024] [ssl:warn] [pid 9372:tid 588] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 23 09:42:42.363419 2024] [mpm_winnt:notice] [pid 9372:tid 588] AH00354: Child: Starting 64 worker threads.
+[Sun May 26 11:55:20.497891 2024] [core:warn] [pid 5160:tid 756] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 26 11:55:20.592946 2024] [ssl:warn] [pid 5160:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 26 11:55:20.734021 2024] [mpm_winnt:notice] [pid 5160:tid 756] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun May 26 11:55:20.734021 2024] [mpm_winnt:notice] [pid 5160:tid 756] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun May 26 11:55:20.734021 2024] [core:notice] [pid 5160:tid 756] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun May 26 11:55:20.734021 2024] [mpm_winnt:notice] [pid 5160:tid 756] AH00418: Parent: Created child process 8020
+[Sun May 26 11:55:22.096700 2024] [ssl:warn] [pid 8020:tid 504] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 26 11:55:22.173047 2024] [mpm_winnt:notice] [pid 8020:tid 504] AH00354: Child: Starting 64 worker threads.
+[Sun May 26 21:36:21.313092 2024] [core:warn] [pid 5748:tid 476] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 26 21:36:21.525684 2024] [ssl:warn] [pid 5748:tid 476] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 26 21:36:21.692631 2024] [mpm_winnt:notice] [pid 5748:tid 476] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Sun May 26 21:36:21.692631 2024] [mpm_winnt:notice] [pid 5748:tid 476] AH00456: Server built: Jul  1 2016 12:02:25
+[Sun May 26 21:36:21.692631 2024] [core:notice] [pid 5748:tid 476] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Sun May 26 21:36:21.692631 2024] [mpm_winnt:notice] [pid 5748:tid 476] AH00418: Parent: Created child process 1448
+[Sun May 26 21:36:23.899752 2024] [ssl:warn] [pid 1448:tid 524] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun May 26 21:36:23.943711 2024] [mpm_winnt:notice] [pid 1448:tid 524] AH00354: Child: Starting 64 worker threads.
+[Tue May 28 16:55:31.190646 2024] [core:warn] [pid 5188:tid 744] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 28 16:55:31.277065 2024] [ssl:warn] [pid 5188:tid 744] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue May 28 16:55:31.450595 2024] [mpm_winnt:notice] [pid 5188:tid 744] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Tue May 28 16:55:31.450595 2024] [mpm_winnt:notice] [pid 5188:tid 744] AH00456: Server built: Jul  1 2016 12:02:25
+[Tue May 28 16:55:31.450595 2024] [core:notice] [pid 5188:tid 744] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Tue May 28 16:55:31.453104 2024] [mpm_winnt:notice] [pid 5188:tid 744] AH00418: Parent: Created child process 7560
+[Tue May 28 16:55:32.860642 2024] [ssl:warn] [pid 7560:tid 684] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue May 28 16:55:32.888282 2024] [mpm_winnt:notice] [pid 7560:tid 684] AH00354: Child: Starting 64 worker threads.
+[Thu May 30 10:48:16.965969 2024] [core:warn] [pid 5244:tid 752] AH00098: pid file C:/Program Files (x86)/AppServ/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 30 10:48:17.115332 2024] [ssl:warn] [pid 5244:tid 752] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 30 10:48:17.266894 2024] [mpm_winnt:notice] [pid 5244:tid 752] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.26 configured -- resuming normal operations
+[Thu May 30 10:48:17.266894 2024] [mpm_winnt:notice] [pid 5244:tid 752] AH00456: Server built: Jul  1 2016 12:02:25
+[Thu May 30 10:48:17.266894 2024] [core:notice] [pid 5244:tid 752] AH00094: Command line: 'C:\\Program Files (x86)\\AppServ\\Apache24\\bin\\httpd.exe -d C:/Program Files (x86)/AppServ/Apache24'
+[Thu May 30 10:48:17.270118 2024] [mpm_winnt:notice] [pid 5244:tid 752] AH00418: Parent: Created child process 9400
+[Thu May 30 10:48:20.110085 2024] [ssl:warn] [pid 9400:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu May 30 10:48:20.173005 2024] [mpm_winnt:notice] [pid 9400:tid 756] AH00354: Child: Starting 64 worker threads.
